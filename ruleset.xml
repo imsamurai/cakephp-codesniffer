@@ -62,7 +62,9 @@
  <rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing"/>
  <rule ref="Squiz.WhiteSpace.MemberVarSpacing"/>
  <rule ref="Squiz.WhiteSpace.SemicolonSpacing"/>
- <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
+ <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine">
+   <severity>0</severity>
+ </rule>
 
  <!-- All rules in ./Sniffs are included automatically -->
 </ruleset>
